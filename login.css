@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+
+*   {
+    font-family: 'poppins';
+}
+
+body    {
+    font-size: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #edebe4;
+}
+
+.form-login    {
+    background-color: #fcfbf2;
+    padding: 10px 30px 40px;
+    border-radius: 10px;
+}
+
+.form-login h3    {
+    text-align: center;
+    font-size: 28px;
+}
+
+.form-login input   {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 18px;
+    border: none;
+    border-radius: 50px;
+    background-color: #e1ddd0;
+}
+
+.form-login p  {
+    text-align: right;
+    font-size: 18px;
+    margin-top: -6px
+}
+
+.form-login p a    {
+    text-decoration: none;
+    color: #7a7974;
+    font-size: 16px;
+}
+
+.form-login p a:hover    {
+    text-decoration: none;
+    color: #6b4755;
+    font-size: 16px;
+}
+
+.form-login .login-btn  {
+    background-color: #AC7088;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    padding: 3px 7px;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-login .login-btn:hover    {
+    background-color: #54abb5;
+    padding: 3px 7px;
+    border: none;
+    border-radius: 8px;
+    color: #f0f0f0;
+}
+
+.form-login .regis-btn  {
+    margin-top: 15px;
+    background-color: #edebe4;
+    color: #AC7088;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    padding: 3px 7px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.form-login .regis-btn:hover    {
+    background-color: #1C3879;
+    border: 2px solid azure;
+    padding: 3px 7px;
+    border: 1px ;
+    border-radius: 8px;
+    color: azure;
+    margin-bottom: 10px;
+}
+
+.form-login hr  {
+    height: 2px;
+    background-color: #AC7088;
+    border: none;
+}
+
+
+.form-login .google-btn  {
+    margin-top: 15px;
+    background-color: #edebe4;
+    color: #AC7088;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    padding: 3px 7px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.form-login .google-btn:hover    {
+    background-color: #1C3879;
+    border: 2px solid azure;
+    padding: 3px 7px;
+    border: 1px ;
+    border-radius: 8px;
+    color: azure;
+}
+
+.form-login .google-btn img    {
+    width: 23px;
+    height: 23px;
+    margin: 3px 6px -5px;
+}
+
+.form-login button  {
+    display: inline-block;
+    height: 35px;
+}
